@@ -5,14 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
-    <title>Netflix Cariri - assistir filmes e séries cearenses</title>
+
+    <!--responsividade-->
+
+    <link rel="stylesheet" href="style/responsive.css">
+
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>Netflix Cariri - assistir filmes e séries nordestinas</title>
 </head>
 <body>
     <header>
         <div class="container">
             <h2 class="logo">NETFLIX CARIRI</h2>
             <nav>
-                <a href="#"> Inicio</a>
+                <a href="https://www.netflix.com/br/" target="_blank"> Inicio</a>
                 <a href="#"> Séries</a>
                 <a href="#"> Filmes</a>
                 <a href="#"> Curtas</a>
@@ -24,17 +34,66 @@
         <div class="filme-principal">
             <div class="container">
                 <h3 class="titulo">LISBELA E O PRISIONEIRO</h3>
-                <p class="descricao">A jovem Lisbela adora ir ao cinema e vive sonhando com os galãs de Hollywood dos filmes que assiste. Leléu é um malandro conquistador, que em meio a uma de suas muitas aventuras chega à cidade da moça. Após se conhecerem eles logo se apaixonam, mas Lisbela está de casamento marcado. Em meio às dúvidas e aos problemas familiares que a nova paixão desperta, há ainda a presença de um matador que está atrás de Leléu, devido a ele ter se envolvido com sua esposa no passado.</p>
+                <p class="descricao">A jovem Lisbela adora ir ao cinema e vive sonhando com os galãs de Hollywood dos filmes que assiste. Leléu é um malandro conquistador, que em meio a uma de suas muitas aventuras chega à cidade da moça. Após se conhecerem eles logo se apaixonam, mas Lisbela está de casamento marcado. Em meio às dúvidas e aos problemas familiares que a nova paixão desperta, há ainda a presença de um matador que está atrás de Leléu, devido a ele ter se envolvido com sua esposa no passado. </p> 
                 <div class="botoes">
                     <button role="button" class="botao">
+                        <i class="fa-solid fa-play"></i>
+                        <a href="https://www.youtube.com/watch?v=OmpH88PF2ms" style="text-decoration:none" target="_blank"></h>
                        ASSISTIR AGORA 
                     </button>
                     <button role="button" class="botao">
-                       MAIS INFORMAÇÔES 
+                        <i class="fa-solid fa-circle-info"></i>
+                        <a href="https://globofilmes.globo.com/filme/lisbelaeoprisioneiro/" style="text-decoration: none" target="_blank"> </href>
+                        MAIS INFORMAÇÔES
                     </button>
-                    </div>
+                </div>
             </div>
         </div>
     </main>
+
+    <div class="carrossel-filmes">
+        <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img class="box-filme" src="img/autodacompadecida.jpg" alt="O Auto da Compadecida">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/bacurau.jpg" alt="Bacurau">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/bemamado.jpg" alt="O Bem Amado">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/milagreemjuazeiro.jpg" alt="O Milagre em Juazeiro">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/gonzaga.jpg" alt="Gonzaga - De Pai pra Filho">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/caminhodasnuvens.jpg" alt="Caminho das Nuvens">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/canudos.jpg" alt="Canudos"> 
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/cine.jpg" alt="Cine Holliúdy">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/desafioudiabo.jpg" alt="O Homem que Desafiou o Diabo">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/pagador.jpg" alt="O Pagador de Promessas">
+                    </div>
+                    <div class="item">
+                        <img class="box-filme" src="img/shaolin.jpg" alt="O Shaolin do Sertão">
+                    </div>
+        </div>
+
+    </div>
+
+    <script src="https://kit.fontawesome.com/841f66def7.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
 </body>
 </html>
